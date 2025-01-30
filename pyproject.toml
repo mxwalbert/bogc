@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bogc"
+version = "0.0.1"
+authors = [
+    { name="Maximilian Wolf", email="maximilian.wolf@ait.ac.at" },
+    { name="Georg K.H. Madsen", email="georg.madsen@tuwien.ac.at" },
+    { name="Theodoros Dimopoulos", email="theodoros.dimopoulos@ait.ac.at" },
+]
+description = "Bayesian optimization of spray parameters for the deposition of Ga2O3-Cu2O heterojunctions"
+readme = "README.md"
+requires-python = "3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering"
+]
+dependencies = [
+
+]
+
+[project.urls]
+Homepage = "https://github.com/mxwalbert/bogc"
