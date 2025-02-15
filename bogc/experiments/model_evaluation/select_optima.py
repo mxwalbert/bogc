@@ -44,6 +44,8 @@ def run(data_config: DataConfig) -> None:
     target_optima = {}
 
     for optimization in glob.glob(f'{output_path}/{snapshot_hash}_*.json'):
+        if re.search(r'.+\[(.+)]_(.+)\.json', optimization) is None:
+            continue
         t, e = re.search(r'.+\[(.+)]_(.+)\.json', optimization).groups()
         with open(optimization, 'r') as f:
             all_best = json.load(f)

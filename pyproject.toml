@@ -12,7 +12,7 @@ authors = [
 ]
 description = "Bayesian optimization of spray parameters for the deposition of Ga2O3-Cu2O heterojunctions"
 readme = "README.md"
-requires-python = "3.12"
+requires-python = ">=3.12"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -20,7 +20,16 @@ classifiers = [
     "Topic :: Scientific/Engineering"
 ]
 dependencies = [
-
+    "PyYAML~=6.0",
+    "torch~=2.6",
+    "numpy~=2.2",
+    "pandas~=2.2",
+    "scikit-learn~=1.6",
+    "gpytorch~=1.13",
+    "matplotlib~=3.10",
+    "tqdm~=4.67",
+    "ax-platform~=0.4",
+    "nubopy~=1.2"
 ]
 
 [project.urls]

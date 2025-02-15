@@ -52,6 +52,6 @@ def run(data_config: DataConfig):
         handles, labels = ax.get_legend_handles_labels()
         fig.legend(handles, labels, loc='upper center', ncol=len(simulation_results), bbox_to_anchor=(0.5, 0))
         fig.tight_layout(rect=(0., 0., 1., 1.))
-        plot_path = f'{input_path}/{snapshot_hash}_{target}_simulation.png'
+        plot_path = f'{input_path}/{snapshot_hash}_[{target}]_simulation.png'
         fig.savefig(plot_path, bbox_inches='tight')
         print(f'Saved figure to {plot_path}')
