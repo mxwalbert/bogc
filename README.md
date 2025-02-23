@@ -1,11 +1,11 @@
-# Bayesian optimization of spray parameters for the deposition of Ga2O3-Cu2O heterojunctions
+# Python Package for Bayesian Optimization of Spray Parameters
 
 
 ## Introduction
 
-This repository contains the Python source code used in our publication, put together into a single commandline 
-program. It provides tools for conducting various experiments related to Gaussian Process training, Bayesian 
-Optimization, and Model Evaluation.
+This repository contains the Python source code used in our publication (see [Citation](#citation)), put together 
+into a single commandline program. It provides tools for conducting various experiments related to Gaussian process 
+training, Bayesian optimization, and model evaluation.
 
 
 ## Getting Started
